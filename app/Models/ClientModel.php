@@ -21,7 +21,6 @@ class ClientModel extends Model
         if (!$client) {
             throw new \Exception('Could not find client for specified ID');
         }
-
         return $client;
     }
 }
